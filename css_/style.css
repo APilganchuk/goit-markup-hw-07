@@ -567,14 +567,7 @@ padding: 20px 24px;
     border: 1px solid #EEEEEE;
     
 }
-/* .lists-section:hover ,
-.lists-section:focus {
-   
-   box-shadow: 
-    0px 1px 1px rgba(0, 0, 0, 0.12),
-    0px 4px 4px rgba(0, 0, 0, 0.06),
-    4px 4px 6px rgba(0, 0, 0, 0.16); 
-} */
+
 /* Работа с фоном и псевдоелементами */
 .hero-bg {
     max-width: 1600px;
