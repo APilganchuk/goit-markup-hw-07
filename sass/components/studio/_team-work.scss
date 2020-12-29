@@ -1,13 +1,15 @@
 // Чем мы занимаемся
-.section .section-items {
+.team-work .section-items {
     display: flex;
     padding-left: 0;
     margin-top: 0;
-    margin-bottom: 0;          
+    margin-bottom: 0;
+               
 }
 
 .items:not(:last-child) {
     margin-right: 30px;
+
 }
 .section-caption {
     text-align: center;
@@ -16,15 +18,14 @@
     padding-bottom: 47px;
 }
 
-.section.team-work {
+.team-work {
     background-color: $primary-bg-color;
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-bottom: 0;
+    margin-top: 0;
     padding-bottom: 94px;
-}
+    
+}    
+
 .items {
     position: relative;
            
@@ -44,6 +45,9 @@
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    
+    
 
     background-color: rgba(47, 48, 58, 0.8);
+    
 }

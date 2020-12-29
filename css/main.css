@@ -27,6 +27,14 @@ img {
   overflow: hidden;
 }
 
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .logo {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -79,16 +87,14 @@ img {
   background-color: #ffffff;
 }
 
-.container {
-  width: 1200px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  align-items: center;
+.navigation {
   display: flex;
+  margin-bottom: 0;
+  margin-top: 0;
+  align-items: center;
 }
 
-.container .logo {
+.navigation .logo {
   margin-right: 93px;
 }
 
@@ -103,7 +109,7 @@ img {
   border-radius: 2px;
 }
 
-.container .item {
+.navigation .item {
   position: relative;
   padding: 32px 0;
 }
@@ -475,7 +481,7 @@ img {
   background-position: center;
 }
 
-.section .section-items {
+.team-work .section-items {
   display: flex;
   padding-left: 0;
   margin-top: 0;
@@ -493,13 +499,10 @@ img {
   padding-bottom: 47px;
 }
 
-.section.team-work {
+.team-work {
   background-color: #ffffff;
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 0;
+  margin-top: 0;
   padding-bottom: 94px;
 }
 
@@ -523,19 +526,21 @@ img {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.section.our-team {
+.section-bg {
   background: #F5F4FA;
 }
 
-.team-work-container {
-  width: 1200px;
+.our-team {
   margin-bottom: 0;
   margin-top: 0;
-  margin-right: auto;
-  margin-left: auto;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-bottom: 94px;
+}
+
+.our-team .section-items {
+  display: flex;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .section-team {
@@ -617,12 +622,7 @@ img {
   color: #212121;
 }
 
-.container-clients {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+.clients {
   margin-top: 94px;
   margin-bottom: 94px;
 }
@@ -880,14 +880,6 @@ img {
   background-color: #2F303A;
 }
 
-.footer-container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .footer .logo {
   display: block;
   padding-top: 60px;
@@ -919,7 +911,7 @@ img {
   display: block;
 }
 
-.footer-container {
+.footer .container {
   display: flex;
   align-items: baseline;
 }

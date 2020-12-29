@@ -25,13 +25,7 @@
     background-color: #2F303A;
               
 }
-.footer-container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 .footer .logo {
     display: block;
     padding-top: 60px;
@@ -59,7 +53,7 @@
 .footer-link {
     display: block;
 }
-.footer-container {
+.footer .container {
     display: flex;
     align-items: baseline;
 }
