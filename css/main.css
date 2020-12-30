@@ -765,6 +765,7 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 47px;
+  font-size: 36px;
 }
 
 .team-work {
@@ -817,6 +818,7 @@ img {
   margin-bottom: 0;
   padding-bottom: 50px;
   padding-top: 94px;
+  font-size: 36px;
 }
 
 .list-workers:not(:last-child) {
