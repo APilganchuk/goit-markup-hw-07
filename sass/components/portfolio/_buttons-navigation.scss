@@ -35,20 +35,13 @@
     line-height: 1.88;
     letter-spacing: 0.03em;
 
-    color: $secondary-text-color;
+    color: $primary-text-color;
 }
 .main-container {
     background: $primary-bg-color;
    
 }
-.web-container {
-    display: flex;
-    margin-bottom: 0;
-    margin-top: 0;
-    flex-wrap: wrap;
-    padding-left: 0;
-       
-}
+
 .portfolio {
     display: flex;
     justify-content: center;
@@ -59,17 +52,7 @@
     margin-top: 0;
     
 }
-.section.portfolio-container {
-    width: 1200px;
-    background-color: $primary-bg-color;
-    margin-top: 94px;
-    margin-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
 
-}
 .portfolio .list-navigation:not(:last-child) {
     margin-right: 8px;
 

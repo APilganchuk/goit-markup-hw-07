@@ -1,3 +1,21 @@
+.portfolio-container {
+    width: 1200px;
+    margin-top: 94px;
+    margin-bottom: 94px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.web-container {
+    display: flex;
+    margin-bottom: 0;
+    margin-top: 0;
+    flex-wrap: wrap;
+    padding-left: 0;
+       
+}
 .section-list .lists-section {
     margin-right: 30px;
     margin-bottom: 30px;

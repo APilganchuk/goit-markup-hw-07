@@ -13,9 +13,12 @@
     position: relative;
     overflow: hidden;
 
-    width: 370px;
-    height: 294px;
+    width: 100%;
     
+    
+}
+.cards .title {
+    width: 100%;
 }
 .text {
     position: absolute;
@@ -53,6 +56,7 @@
 
 }
 .cards {
+    width: 370px;
     transition: box-shadow 250ms $timing-function;
 }
 .cards:focus .overlay {
