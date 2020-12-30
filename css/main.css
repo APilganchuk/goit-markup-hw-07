@@ -1021,7 +1021,7 @@ img {
   margin-right: 8px;
 }
 
-.section-list .lists-section:nth-child(n + 1) {
+.section-list .lists-section {
   margin-right: 30px;
   margin-bottom: 30px;
 }
