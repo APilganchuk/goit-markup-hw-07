@@ -1,3 +1,20 @@
+.section .list-btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.portfolio-btn {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 50px;
+    margin-top: 0;
+    
+}
 .list-btn {
     background: #F5F4FA;
     border:none;
@@ -9,51 +26,12 @@
 .list-btn:hover ,
 .list-btn:focus {
     color: $secondary-text-color;
-    background: $accent-color;
+    background-color: $accent-color;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-                0px 1px 2px rgba(0, 0, 0, 0.08),
-                0px 2px 2px rgba(0, 0, 0, 0.12);
-}                          
-.section .list-btn {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
-}
-.section-item {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-
-    color: #212121;
-}
-.section-tagline {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-
-    color: $primary-text-color;
-}
-.main-container {
-    background: $primary-bg-color;
-   
-}
-
-.portfolio {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 34px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 0;
-    margin-top: 0;
-    
-}
-
-.portfolio .list-navigation:not(:last-child) {
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}   
+.portfolio-btn .list-navigation:not(:last-child) {
     margin-right: 8px;
 
 }

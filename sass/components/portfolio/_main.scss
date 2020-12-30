@@ -1,9 +1,6 @@
 .portfolio-container {
     width: 1200px;
-    margin-top: 94px;
-    margin-bottom: 94px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 94px auto;
     padding-left: 15px;
     padding-right: 15px;
 
@@ -16,6 +13,27 @@
     padding-left: 0;
        
 }
+.section-item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+
+    color: #212121;
+}
+.section-tagline {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+    color: $primary-text-color;
+}
+.main-container {
+    background: $primary-bg-color;
+   
+}
+
 .section-list .lists-section {
     margin-right: 30px;
     margin-bottom: 30px;
