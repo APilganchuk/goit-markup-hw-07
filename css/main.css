@@ -982,11 +982,9 @@ img {
   margin-right: 8px;
 }
 
-.portfolio-container {
-  width: 1200px;
-  margin: 94px auto;
-  padding-left: 15px;
-  padding-right: 15px;
+.section.container {
+  margin-top: 94px;
+  margin-bottom: 94px;
 }
 
 .web-container {
