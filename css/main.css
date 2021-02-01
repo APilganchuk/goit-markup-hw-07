@@ -295,11 +295,28 @@ img {
 }
 
 .container {
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }
 
 .logo {
@@ -382,9 +399,15 @@ img {
 }
 
 .nav {
-  display: flex;
+  display: none;
   margin: 0;
   padding-left: 0;
+}
+
+@media screen and (min-width: 1200px) {
+  .nav {
+    display: flex;
+  }
 }
 
 .auth-nav {
@@ -1238,18 +1261,19 @@ img {
 .text-container {
   position: relative;
   max-width: 928px;
+  max-height: 164px;
   height: 138px;
-  padding: 32px 50px;
+  padding: 37px 50px;
   margin-bottom: 15px;
   background-color: #FAFAFA;
 }
 
 .text-slider {
   display: block;
-  height: 80px;
+  min-height: 80px;
   padding-left: 54px;
   margin: 0;
-  background-image: repeating-linear-gradient(to bottom, #fff2, #fff2 26px, #E1E1E1 18px, #E1E1E1 28px);
+  background-image: repeating-linear-gradient(to bottom, #fff2 0px, #fff2 26px, #E1E1E1 26px, #E1E1E1 28px);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.87;
@@ -1328,8 +1352,14 @@ img {
 }
 
 .footer .container {
-  display: flex;
+  display: block;
   align-items: baseline;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer .container {
+    display: flex;
+  }
 }
 
 .footer-discription {

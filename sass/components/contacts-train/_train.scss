@@ -124,9 +124,10 @@
 .text-container {
     position: relative;
     max-width: 928px;
+    max-height: 164px;
     height: 138px;
     
-    padding: 32px 50px;
+    padding: 37px 50px;
     margin-bottom: 15px;
 
     background-color: #FAFAFA;
@@ -134,12 +135,14 @@
 .text-slider {
     display: block;
     
-    height: 80px;
+    
+    min-height: 80px;
 
     padding-left: 54px;
     margin: 0;
     
-    background-image:  repeating-linear-gradient(to bottom, #fff2, #fff2 26px, #E1E1E1 18px, #E1E1E1 28px);
+    background-image:  repeating-linear-gradient(to bottom, #fff2 0px, #fff2 26px, #E1E1E1 26px, #E1E1E1 28px);
+    
 
     font-weight: 500;
     font-size: 16px;
