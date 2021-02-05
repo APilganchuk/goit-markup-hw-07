@@ -1,0 +1,196 @@
+// /* Слайдер */
+// .slick-slider {
+// }
+// /* Слайдер запущен */
+// .slick-slider.slick-initialized {
+// }
+// /* Слайдер с точками */
+// .slick-slider.slick-dotted {
+  
+// }
+// /* Ограничивающая оболочка */
+// .slick-list {
+// }
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+  justify-content: center;
+  
+}
+// /* Слайд */
+// .slick-slide {
+// }
+// /* Слайд активный (показывается) */
+// .slick-slide.slick-active {
+// }
+// /* Слайд основной */
+// .slick-slide.slick-current {
+// }
+// /* Слайд по центру */
+// .slick-slide.slick-center {
+// }
+// /* Клонированный слайд */
+// .slick-slide.slick-cloned {
+// }
+// /* Стрелка */
+// .slick-arrow {
+// }
+// /* Стрелка влево */
+// .slick-arrow.slick-prev {
+// }
+// /* Стрелка вправо */
+// .slick-arrow.slick-next {
+// }
+// /* Стрелка не активная */
+// .slick-arrow.slick-disabled {
+// }
+// /* Точки (булиты) */
+// .slick-dots {
+// }
+// .slick-dots li {
+// }
+// /* Активная точка */
+// .slick-dots li.slick-active {
+// }
+// /* Элемент точки */
+// .slick-dots li button {
+// }
+
+// мой слайдер
+.slider {
+  position: relative;
+  overflow: hidden;  
+}
+.slider .slick-arrow {
+  position: absolute;
+  bottom: 50%;
+  padding: 0;
+  margin: 0;
+
+  font-size: 0;
+  z-index: 10;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid #FFF5F6;
+  outline: none;
+  cursor: pointer;
+}
+.slider .slick-arrow.slick-prev {
+  
+  left: 0;
+  background-image: url("../images/contacts-train/left-arrow.svg");
+  background-color:transparent;
+  
+}
+.slider .slick-arrow.slick-next {
+  right: 0;
+  
+  background-image: url("../images/contacts-train/right-arrow.svg");
+  background-color:transparent;
+}
+.slider .slick-dots {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  & li:not(:last-child) {
+    margin-right: 18px;
+  }
+  & li {
+    width: 12px;
+    height: 12px;
+    display: inline-flex;
+  }
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.slick-dots li button {
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  border-color: transparent;
+  background-color: #D9D9D9;
+  outline: none;
+  transform: scale(1);
+  transition: transform 300ms cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+// Активная кнопка переключателя
+.slick-dots li.slick-active button {
+  background-image: url("./../images/contacts-train/home.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border-radius: 20%;
+  transform: scale(1.2);
+  
+}
+.slider__item .text-box {
+  position: relative;
+  max-width: 926px;
+  height: 138px;
+  margin: 0 auto;
+  padding: 40px 85px;
+  outline: 1px solid teal;
+
+}
+.slider__item .text-slide {
+  height: 72px;
+  margin: 0;
+
+  
+  background-size: 64px 63px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.text-box::before {
+  position: absolute;
+  left: 35px;
+  top: 10px;
+
+  content: "";
+  display: block;
+  width: 54px;
+  height: 40px;
+  background-image: url("../images/contacts-train/quote.png");
+
+  
+}
+.slider__item .points {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+.points > .points-icon {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #C7133E;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.slider__item .slide-subtitle {
+  
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 186%;
+  & .slide-subtitle-item {
+    margin-top: 0;
+    margin-bottom: 35px;
+    text-align: center;
+    
+  }
+}
+
+.slider__item img {
+  margin: 0 auto;
+}
